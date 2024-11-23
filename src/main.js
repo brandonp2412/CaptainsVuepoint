@@ -9,6 +9,7 @@ import Internet from "./components/Internet.vue";
 import Routing from "./components/Routing.vue";
 import Templates from "./components/Templates.vue";
 import Conditions from "./components/Conditions.vue";
+import UserInput from "./components/UserInput.vue";
 
 const routes = [
   { path: "/", component: Home },
@@ -17,6 +18,7 @@ const routes = [
   { path: "/routing", component: Routing },
   { path: "/templates", component: Templates },
   { path: "/conditions", component: Conditions },
+  { path: "/user-input", component: UserInput },
 ];
 
 const router = createRouter({

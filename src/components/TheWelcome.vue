@@ -5,6 +5,7 @@ import TemplatesIcon from "./icons/TemplatesIcon.vue";
 import ConditionsIcon from "./icons/ConditionsIcon.vue";
 import RoutingIcon from "./icons/RoutingIcon.vue";
 import InternetIcon from "./icons/InternetIcon.vue";
+import UserIcon from "./icons/UserIcon.vue";
 </script>
 
 <template>
@@ -36,6 +37,16 @@ import InternetIcon from "./icons/InternetIcon.vue";
 
     <RouterLink to="/conditions">Showing & hiding</RouterLink> content is very
     important in dynamic user experiences
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <UserIcon />
+    </template>
+    <template #heading>User input</template>
+
+    Getting and using <RouterLink to="/user-input">data</RouterLink> from our
+    users is important
   </WelcomeItem>
 
   <WelcomeItem>

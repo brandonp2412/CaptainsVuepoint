@@ -18,5 +18,5 @@ let name = "Mr. beast";
   <br />
   <br />
   <RouterLink to="/templates">Go back</RouterLink>
-  <RouterLink to="/routing">Next lesson</RouterLink>
+  <RouterLink to="/user-input">Next lesson</RouterLink>
 </template>
