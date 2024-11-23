@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "ollama": "^0.5.10",
     "vue": "^3.5.12"
   },
   "devDependencies": {
