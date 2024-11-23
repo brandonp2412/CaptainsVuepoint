@@ -14,7 +14,8 @@ import InternetIcon from "./icons/InternetIcon.vue";
     </template>
     <template #heading>Elements</template>
 
-    What kind of things do we want to show our users?
+    What kind of things do we want to
+    <RouterLink to="/elements">show</RouterLink> our users?
   </WelcomeItem>
 
   <WelcomeItem>
@@ -23,7 +24,8 @@ import InternetIcon from "./icons/InternetIcon.vue";
     </template>
     <template #heading>Templates</template>
 
-    Websites need to react to different variables
+    Websites need to react to different
+    <RouterLink to="/templates">variables</RouterLink>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -32,7 +34,8 @@ import InternetIcon from "./icons/InternetIcon.vue";
     </template>
     <template #heading>Conditions</template>
 
-    Showing & hiding content is very important in dynamic user experiences
+    <RouterLink to="/conditions">Showing & hiding</RouterLink> content is very
+    important in dynamic user experiences
   </WelcomeItem>
 
   <WelcomeItem>
@@ -41,7 +44,8 @@ import InternetIcon from "./icons/InternetIcon.vue";
     </template>
     <template #heading>Routing</template>
 
-    Websites consist of pages! Let's make some...
+    Websites consist of <RouterLink to="/routing">pages</RouterLink>! Let's make
+    some...
   </WelcomeItem>
 
   <WelcomeItem>
@@ -50,7 +54,7 @@ import InternetIcon from "./icons/InternetIcon.vue";
     </template>
     <template #heading>Internet connections</template>
 
-    Our website can't hold all the answers, let's see how to get information
-    across the web.
+    Our website can't hold all the answers, let's see how to
+    <RouterLink to="/internet"> get information across the web </RouterLink>.
   </WelcomeItem>
 </template>
