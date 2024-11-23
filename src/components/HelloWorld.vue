@@ -10,7 +10,7 @@ defineProps({
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <h3>This is the Vue learning module for CodeSail</h3>
+    <h3>Making websites - the modern way</h3>
   </div>
 </template>
 
