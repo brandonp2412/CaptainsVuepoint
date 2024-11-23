@@ -5,7 +5,7 @@
   <p>Paragraphs start with <code>p</code></p>
 
   <!-- Replace this with a different image -->
-  <img src="../assets/funny-cat.jpg" height="200px" />
+  <img src="../assets/cat.jpg" width="200px" />
 
   <!-- This adds space -->
   <br />
