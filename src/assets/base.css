@@ -143,3 +143,105 @@ button:hover {
 .fly-by {
   animation: fly-by 1s ease-in-out;
 }
+
+/**
+  * Rays
+  *
+  * @author jh3y
+*/
+@-webkit-keyframes rays {
+  from {
+    opacity: 1;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes rays {
+  from {
+    opacity: 1;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.rays {
+  position: relative; /* Ensure positioned context for pseudo-elements */
+  margin: 10px 0;
+}
+
+.rays:after,
+.rays:before {
+  border-radius: 100%;
+  content: "";
+  position: absolute;
+}
+
+.rays:after {
+  -webkit-animation: rays 1.5s infinite;
+  animation: rays 1.5s infinite;
+  border: 10px solid white;
+  height: 100px;
+  width: 100px;
+  top: -40px; /* Adjust as needed */
+  left: -40px; /* Adjust as needed */
+}
+
+.rays:before {
+  background: white;
+  height: 20px;
+  width: 20px;
+}
+
+.swanky-list {
+  list-style: none; /* Remove default bullets */
+  margin: 0;
+  padding: 0;
+  max-width: 400px;
+  margin: auto;
+  font-family: "Arial", sans-serif;
+}
+
+.swanky-list li {
+  background: linear-gradient(90deg, #030c0e, #0072ff);
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  transition: transform 0.3s, background 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.swanky-list li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1); /* Less intense */
+  transition: left 0.6s; /* Slower transition */
+}
+
+.swanky-list li:hover::before {
+  left: 100%;
+}
+
+.swanky-list li:hover {
+  transform: scale(1.03); /* Smaller scale */
+  background: linear-gradient(
+    90deg,
+    #005fa3,
+    #006fdc
+  ); /* Slightly different gradient for subtle effect */
+}

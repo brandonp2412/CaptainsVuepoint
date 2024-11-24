@@ -63,9 +63,9 @@ import UserIcon from "./icons/UserIcon.vue";
     <template #icon>
       <InternetIcon />
     </template>
-    <template #heading>Internet connections</template>
+    <template #heading>Libraries</template>
 
-    Our website can't hold all the answers, let's see how to
-    <RouterLink to="/internet"> get information across the web </RouterLink>.
+    Using other peoples code is a great way to get things done
+    <RouterLink to="/libraries">quickly</RouterLink>
   </WelcomeItem>
 </template>

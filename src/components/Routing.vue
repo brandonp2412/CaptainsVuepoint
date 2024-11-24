@@ -8,7 +8,7 @@ const isAnimating = ref(false);
 function go() {
   isAnimating.value = true;
   setTimeout(() => {
-    router.push("/internet");
+    router.push("/libraries");
   }, 1000); // Wait for animation to complete before navigating
 }
 </script>
@@ -28,7 +28,7 @@ function go() {
 
   <br /><br />
   <RouterLink to="/user-input">Go back</RouterLink>
-  <RouterLink to="/internet">Next lesson</RouterLink>
+  <RouterLink to="/libraries">Next lesson</RouterLink>
 
   <!-- Create your own route, and link it below -->
 </template>
