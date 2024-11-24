@@ -12,7 +12,7 @@ async function submit() {
   messages.value.unshift(question.value);
 
   const response = await ollama.chat({
-    model: "tinyllama",
+    model: "llama3.2",
     messages: [{ role: "user", content: question.value }],
   });
 
