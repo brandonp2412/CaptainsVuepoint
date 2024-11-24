@@ -124,3 +124,22 @@ button {
 button:hover {
   background-color: #3aa876;
 }
+
+@keyframes fly-by {
+  0% {
+    opacity: 0;
+    transform: translateX(-200%) scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0) scale(1.25);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(200%) scale(0);
+  }
+}
+
+.fly-by {
+  animation: fly-by 1s ease-in-out;
+}
