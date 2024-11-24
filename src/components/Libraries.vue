@@ -39,13 +39,7 @@ async function submit() {
   <br />
   <!-- TODO: Indicate if messages are from the user, or ollama -->
   <ul class="swanky-list">
-    <li v-if="loading" class="rays">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </li>
+    <li v-if="loading" class="rays"></li>
 
     <li v-for="message in messages">
       {{ message }}

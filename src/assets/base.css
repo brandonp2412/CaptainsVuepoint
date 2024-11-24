@@ -193,10 +193,10 @@ button:hover {
   -webkit-animation: rays 1.5s infinite;
   animation: rays 1.5s infinite;
   border: 10px solid white;
-  height: 100px;
-  width: 100px;
-  top: -40px; /* Adjust as needed */
-  left: -40px; /* Adjust as needed */
+  height: 30px;
+  width: 30px;
+  top: 0px;
+  left: 5px;
 }
 
 .rays:before {
