@@ -93,10 +93,12 @@ textarea {
   padding: 10px 12px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #444;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 16px;
+  background-color: #333;
+  color: #e0e0e0;
   transition: border-color 0.3s ease-in-out;
 }
 
@@ -107,8 +109,9 @@ input[type="number"]:focus,
 textarea:focus {
   outline: none;
   border-color: #42b983;
-  box-shadow: 0 0 0 2px rgba(66, 185, 131, 0.1);
+  box-shadow: 0 0 0 2px rgba(66, 185, 131, 0.3);
 }
+
 
 button {
   background-color: #42b983;
